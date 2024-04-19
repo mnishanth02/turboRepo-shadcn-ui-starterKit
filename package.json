@@ -1,0 +1,25 @@
+{
+  "name": "zealer-zone",
+  "packageManager": "pnpm@8.14.1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "ui:add": "pnpm --filter @zealer/ui ui:add"
+  },
+  "devDependencies": {
+    "@zealer/eslint-config": "workspace:*",
+    "@zealer/typescript-config": "workspace:*",
+    "turbo": "latest",
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

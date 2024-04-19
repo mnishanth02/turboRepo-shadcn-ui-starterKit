@@ -1,0 +1,3 @@
+{
+  "extends": "@zealer/typescript-config/base.json"
+}
