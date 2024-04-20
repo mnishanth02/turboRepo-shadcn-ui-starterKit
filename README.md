@@ -1,4 +1,4 @@
-# Zealer Zone starter Template
+# Turborepo shadncn/ui starter Template
 
 This is an starter pnpm Turborepo Template with shadcn ui shared accross apps.
 
