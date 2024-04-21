@@ -6,8 +6,9 @@
         "name": "next"
       }
     ],
-      "paths": {
-      "@/*": ["./*"]
+    "paths": {
+      "@/*": ["./*"],
+      "@ui/*": ["../../packages/ui/src/*"]
     }
   },
   "include": [
